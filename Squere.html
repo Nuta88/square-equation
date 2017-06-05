@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Square equation</title>
+<link rel="stylesheet" href="SQ.css">
+</head>
+<body>
+	<h1>Калькулятор онлайн. Решение квадратного уравнения.</h1>
+	<form id="MathTask" onsubmit="return false;">
+		<label>Введите квадратное уравнение (x <sup>2</sup> необходимо
+			записывать как: x^2)
+		</label> <input id="sEquat" name="sEquat" type="text" class="Math"
+			placeholder="Пример: x^2+2x-1" value=""> <span class="Math">
+			=0;</span>
+	</form>
+	<button onclick="start()">Решить</button>
+
+	<p id="solve"></p>
+
+	<script src="SQ.js"></script>
+</body>
+</html>

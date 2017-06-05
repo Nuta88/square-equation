@@ -1,0 +1,69 @@
+body {
+	background-color: #CEF6CE;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 9px red;
+	padding: 2px;
+}
+
+#MathTask label {
+	display: block;
+	font-weight: bold;
+	padding: 4px;
+	color: green;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 4px;
+}
+
+.Math {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.3em;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+input {
+	padding: 3px 5px;
+	margin: 10px 0;
+	color: #2c2c2c;
+	font-size: 1.2em;
+	background-color: #fff2c6;
+	border: 1px solid #2c2c2c;
+	border-radius: 5px;
+}
+
+button {
+	background-color: red;
+	margin-left: 63px;
+	margin-top: 10px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+	box-shadow: 0 0 5px white;
+}
+
+button:hover {
+	background-color: green;
+	font-size: 16px;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+	text-transform: uppercase;
+}
+
+#solve {
+	margin-top: 30px;
+	margin-left: 23px;
+	text-indent: 1.9em;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.5;
+}
